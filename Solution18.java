@@ -19,6 +19,7 @@ class Solution18 {
     public int[] productExceptSelf(int[] nums) {
         int length = nums.length;
 
+        // 这里添加了数组长度为0的特殊情况的判断
         if(length == 0){
             return new int[]{};
         }
